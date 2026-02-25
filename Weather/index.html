@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <video autoplay muted loop id="bgvideo">
+        <source src="bgvideos/moonvideo.mp4" type="video/mp4">
+    </video>
+    
+    <header>
+        <nav class="nav">
+            <h1 class="Heading">Weather Forecast App</h1>
+            <img src="bgvideos/logo.png" alt="logo" class="imglogo">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="inputlocation" type="text" placeholder="Enter city name">
+            <button class="searchbtn">Search</button>
+
+
+        </nav>
+
+        <div class="container">
+            <div class="location"> Your Location</div>
+            <div class="temperature"> 27°C </div>
+            <div class="feelslike"> Feels like: 29°C </div>
+            <div class="description"> Clear Sky </div>
+            <div class="daynight">  Day </div>
+            <div class="wind">Wind: 5 km/h</div>
+            <div class="humidity"> Humidity: 60% </div>
+            <div class="pressure"> Pressure: 1013 hPa </div>
+            <div class="direction">
+                <div class="latitude"> Lat: 34</div>
+                <div class="longitude"> Lon: 74</div>
+            </div>
+
+        </div>
+    </header>
+</body>
+</html>
